@@ -1,0 +1,141 @@
+/* 
+Utilizando o CSS BEM:
+
+B -> bloco
+E -> Elemento
+M -> Modificador 
+
+*/
+/* Body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  flex-basis: 30%;
+}
+
+.cabecalho__logo {
+}
+
+.cabecalho__logo img {
+  margin-bottom: 30px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.cabecalho figcaption {
+  display: none;
+}
+
+.cabecalho__menuNavegacao {
+}
+
+.cabecalho__menuLista {
+}
+
+.cabecalho__menuItem {
+  margin-bottom: 25px;
+}
+
+.cabecalho__menuItem img {
+  max-width: 26px;
+}
+
+.cabecalho__menuItem a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  vertical-align: super;
+}
+
+/* Principal */
+
+main {
+}
+
+.principal {
+  flex-basis: 70%;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.principal__titulo {
+  color: black;
+  padding: 10px 30px;
+}
+
+.principal__form {
+  padding: 10px 30px;
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+  text-align: right;
+}
+
+.principal__form textarea {
+  display: block;
+  width: 90%;
+  height: 55px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.principal__form button {
+  background-color: #1da1f2;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.principal__feed {
+  padding: 10px 30px;
+}
+
+.principal__listaTweets {
+}
+
+.principal__tweet {
+  padding: 30px 30px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet_fotoPerfil {
+  margin-right: 10px;
+}
+.tweet_conteudo {
+  padding: 20px 30px;
+  margin-left: 15px;
+}
+
+.tweet__conteudo h2 {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.tweet__conteudo span {
+  display: inline-block;
+  color: #828282;
+}
+
+.tweet__conteudo p {
+  margin-top: 15px;
+  color: #333333;
+  line-height: 1.4em;
+}
+
+.tweet__conteudo a {
+  text-decoration: none;
+  color: #1da1f2;
+}
