@@ -61,7 +61,7 @@ function listarTweet(tweet) {
   h2.innerText = `${name} `;
 
   let span = document.createElement("span");
-  span.innerText = ` ${user} - ${time}`;
+  span.innerHTML = `&nbsp ${user} - ${time}`;
 
   let p = document.createElement("p");
   p.innerText = `${text}`;
