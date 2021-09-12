@@ -55,6 +55,11 @@ body {
   text-decoration: none;
   font-size: 16px;
   vertical-align: super;
+  font-weight: bold;
+}
+
+.cabecalho__menuItem a:hover {
+  color: #1da1f2;
 }
 
 /* Principal */
@@ -90,11 +95,16 @@ main {
 }
 
 .principal__form button {
-  background-color: #1da1f2;
+  background-color: rgba(29, 161, 242, 0.5);
   border: none;
   padding: 8px 20px;
   color: #fff;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.principal__form button:hover {
+  background-color: #1da1f2;
 }
 
 .principal__feed {
@@ -102,6 +112,8 @@ main {
 }
 
 .principal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
 }
 
 .principal__tweet {
