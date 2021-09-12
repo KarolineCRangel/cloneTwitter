@@ -76,6 +76,7 @@ main {
 .principal__titulo {
   color: black;
   padding: 10px 30px;
+  font-weight: bold;
 }
 
 .principal__form {
